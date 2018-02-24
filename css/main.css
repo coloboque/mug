@@ -1,0 +1,128 @@
+.red{
+    background-color:red;
+}
+
+
+.blue{
+    background-color:rgb(7, 39, 145);
+}
+
+.green{
+    background-color: rgb(12, 58, 12);
+}
+
+.white{
+    background-color:#fff;
+    border: 1px solid grey;
+}
+
+.black{
+    background-color: #000;
+}
+
+.cobalt{
+    background-color: rgb(28, 1, 92);
+}
+
+.light-blue{
+    background-color: rgb(159, 204, 247);
+}
+
+.mint{
+    background-color: rgb(79, 230, 217);
+}
+
+.creme{
+    background-color: rgb(253, 200, 121);
+}
+
+.calc__color{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.calc__input {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+.calc__input-fake{
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    opacity: 0.7;
+    transition: all ease-in-out 300ms;
+}
+
+.calc__input-fake-text{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.calc__input-fake:hover{
+    transform: scale(1.2);
+}
+
+.calc__input:checked + .calc__input-fake{
+    box-shadow:2px 2px 5px rgba(0,0,0,0.7);
+    transform: scale(1.2);
+    opacity:1; 
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.calc__settings--block{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-bottom: 0;
+    border: 1px dotted grey;
+    border-radius: 15px;
+    width: auto;
+    position: relative;
+    display: flex;
+}
+
+.calc__settings--title{
+  position: absolute;
+  top: -10px;
+  background-color: #fff;
+} 
+
+
+.calculate{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border: none;
+  } 
+
+ .calculate:hover { background: rgb(53, 167, 110); }
+ .calculate:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+    
+  .calc__settings--buttons{
+      display: flex;
+  }
+
+
+  .calc__qty_input{
+      width: 50px;
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+  }

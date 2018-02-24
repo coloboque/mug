@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header>
+            <div class="logo"></div>
+            <nav class="menu"></nav>
+        </header>
+        <div class="calc__wrap">
+            <form class="calc__form" action="" method="post" id="calc-form">
+                <div class="calc__img"></div>
+                <div class="calc__settings">
+                    <div class="calc__settings--block calc__emal">
+                        <div class="calc__settings--title">Выберите цвет эмали:</div>
+                        <div class="calc__settings--buttons">
+                            <label class="calc__color" for="white">
+                                <input class="calc__input" name="emal_color" value="white" id="white" type="radio" checked="checked">
+                                <div class="calc__input-fake white"></div>
+                            </label>
+                            <label class="calc__color" for="black">
+                                <input class="calc__input" name="emal_color" value ="black" id="black" type="radio">
+                                <div class="calc__input-fake black"></div>
+                            </label>
+                            <label class="calc__color" for="red">
+                                <input class="calc__input" name="emal_color" value ="red" id="red" type="radio">
+                                <div class="calc__input-fake red"></div>
+                            </label>
+                            <label class="calc__color" for="green">
+                                <input class="calc__input" name="emal_color" value ="green" id="green" type="radio">
+                                <div class="calc__input-fake green"></div>
+                            </label>
+                            <label class="calc__color" for="blue">
+                                <input class="calc__input" name="emal_color" value ="blue" id="blue" type="radio">
+                                <div class="calc__input-fake blue"></div>
+                            </label>
+                                <label class="calc__color" for="cobalt">
+                                <input class="calc__input" name="emal_color" value ="cobalt" id="cobalt" type="radio">
+                                <div class="calc__input-fake cobalt"></div>
+                            </label>
+                            <label class="calc__color" for="light-blue">
+                                <input class="calc__input" name="emal_color" value ="light-blue" id="light-blue" type="radio">
+                                <div class="calc__input-fake light-blue"></div>
+                            </label>
+                            <label class="calc__color" for="mint">
+                                <input class="calc__input" name="emal_color" value ="mint" id="mint" type="radio">
+                                <div class="calc__input-fake mint"></div>
+                            </label>
+                            <label class="calc__color" for="creme">
+                                <input class="calc__input" name="emal_color" value ="creme" id="creme" type="radio">
+                                <div class="calc__input-fake creme"></div>
+                            </label>
+                            </div>
+                    </div>
+                    <div class="calc__settings--block calc__rim">
+                        <div class="calc__settings--title">Выберите цвет каемки:</div>
+                            <div class="calc__settings--buttons">
+                                <label class="calc__color" for="rim-black">
+                                    <input class="calc__input" name="rim_color" value ="black" id="rim-black" type="radio" checked="checked">
+                                    <div class="calc__input-fake black"></div>
+                                </label>
+                                <label class="calc__color" for="rim-blue">
+                                    <input class="calc__input" name="rim_color" value ="blue" id="rim-blue" type="radio">
+                                    <div class="calc__input-fake blue"></div>
+                                </label>
+                                <label class="calc__color" for="rim-white">
+                                    <input class="calc__input" name="rim_color" value ="white" id="rim-white" type="radio">
+                                    <div class="calc__input-fake white"></div>
+                                </label>                               
+                          
+                            </div>
+                        <div class="explain explain__rim"></div>    
+                    </div>
+                    <div class="calc__settings--block calc__decal">
+                        <div class="calc__settings--title">Деколь:</div>
+                        <div class="calc__settings--buttons">
+                            <label class="calc__color" for="digital">
+                                <input class="calc__input" name="decal-type" value ="digital" id="digital" type="radio">
+                                <div class="calc__input-fake white calc__input-fake-text">Цифровая</div>
+                            </label>   
+                            <label class="calc__color" for="screenprint">
+                                <input class="calc__input" name="decal-type" value ="screenprint" id="screenprint" type="radio">
+                                <div class="calc__input-fake white calc__input-fake-text">Шелкография</div>
+                            </label>  
+                        </div>
+                        <div class="explain explain__decal"></div>
+                    </div>
+                    <div class="calc__settings--block calc__coat">
+                        <div class="calc__settings--title">Нанесение:</div>
+                        <div class="calc__settings--buttons">
+                            <label class="calc__color" for="round">
+                                <input class="calc__input" name="coat-type" value ="round" id="round" type="radio">
+                                <div class="calc__input-fake white calc__input-fake-text">Круговое</div>
+                            </label>   
+                            <label class="calc__color" for="2pcs">
+                                <input class="calc__input" name="coat-type" value ="2pcs" id="2pcs" type="radio">
+                                <div class="calc__input-fake white calc__input-fake-text">с 2х сторон</div>
+                            </label>   
+                            <label class="calc__color" for="1pcs">
+                                <input class="calc__input" name="coat-type" value ="1pcs" id="1pcs" type="radio">
+                                <div class="calc__input-fake white calc__input-fake-text">с 1 стороны</div>
+                            </label>   
+                 
+                        </div>
+                        <div class="explain explain__coat"></div>
+                    </div>
+                    <div class="calc__settings--block calc__qty">
+                        <div class="calc__settings--title">Тираж:</div>
+                        <input class="calc__qty_input" name="qty" value ="" id="qty" type="text"> шт
+                    </div>
+                </div> 
+                <button type="submit" class="calculate">Расчитать</button>
+            </form>
+            <div class="clac__result">
+                <div class="price">Стоимость: <span class="price__batch"></span> за <span class="price__qty"> шт. / </span><span class="price__item"></span> за шт.</div>
+                <div class="time"></div>
+            </div>
+            <form action="js/server.php" method="post" id="order-form">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <button type="submit" class="order">Заказать</button>
+            </form>
+        </div>
+        <div class="gallery"></div>
+        <div class="features"></div>  
+        <footer></footer>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
